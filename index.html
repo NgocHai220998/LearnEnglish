@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Học Tiếng Anh by Ngọc Hải new version</title>
+		<style>
+			.red {
+				color: red;
+			}
+		</style>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+		<script src="./DAY1.js"></script>
+	</head>
+	<body>
+		<div style="padding: 20px">
+			<div class="left">
+				<label for="days">Choose a DAY:</label>
+				<select id="days">
+					<option value="day1">Ngày thứ nhất</option>
+					<option value="day2">Ngày thứ 2</option>
+					<option value="day3">Ngày thứ 3</option>
+					<option value="day4 selected">Ngày thứ 4</option>
+				</select>
+			</div>
+			<div class="right">
+				<h3 id="word" class="title"></h3>
+				<input type="text" id="input" class="content" />
+			</div>
+			<script>
+				let data = [...day1];
+				let currentWord = {};
+				setWord();
+				$("#days").change(function (event) {
+					switch (event.target.value) {
+						case "day1":
+							data = day1;
+							break;
+						case "day2":
+							data = day1;
+							break;
+						case "day3":
+							data = day1;
+							break;
+						case "day4":
+							data = day1;
+							break;
+						case "day5":
+							data = day1;
+							break;
+						default:
+							break;
+					}
+					setWord();
+				});
+				$("#input").keypress(function (event) {
+					var keycode = event.keyCode ? event.keyCode : event.which;
+					if (keycode == "13") {
+						if (event.target.value == currentWord.word) {
+							playSound(currentWord.word);
+							setWord();
+						}
+						this.value = "";
+					}
+				});
+				function playSound(word) {
+					let length = word.length;
+					let path_1 = "";
+					let path_2 = "";
+					let path_3 = "";
+					switch (length) {
+						case 1:
+							path_1 = word[0];
+							path_2 = word[0] + "__";
+							path_3 = word[0] + "____";
+							break;
+
+						case 2:
+							path_1 = word[0];
+							path_2 = word[0] + word[1] + "_";
+							path_3 = word[0] + word[1] + "_" + "_" + "_";
+							break;
+
+						case 3:
+							path_1 = word[0];
+							path_2 = word[0] + word[1] + word[2];
+							path_3 = word[0] + word[1] + word[2] + "_" + "_";
+							break;
+
+						case 4:
+							path_1 = word[0];
+							path_2 = word[0] + word[1] + word[2];
+							path_3 = word[0] + word[1] + word[2] + word[3] + "_";
+							break;
+						default:
+							path_1 = word[0];
+							path_2 = word[0] + word[1] + word[2];
+							path_3 = word[0] + word[1] + word[2] + word[3] + word[4];
+							break;
+					}
+
+					var a = new Audio(
+						`https://dictionary.cambridge.org/vi/media/english/us_pron/${path_1}/${path_2}/${path_3}/${word}.mp3`
+					);
+					a.play();
+				}
+				function setWord() {
+					if (data.length == 1) {
+						data = [...day1]
+						$("#word").toggleClass("red")
+					}
+					let index = 0
+					do {
+						index = Math.floor(Math.random() * data.length)
+						currentWord = data[index];
+						data.splice(index, 1)
+					} while (currentWord.word == "");
+					$("#word").html(currentWord.mean);
+				}
+
+				convertJptoHex = function (n) {
+					if (null == n || "" == n) return "";
+					-1 != n.indexOf("\u300c") &&
+						(n = (n = n.replace(new RegExp("\u300c", "g"), "")).replace(
+							new RegExp("\u300d", "g"),
+							""
+						)),
+						(n = n.trim());
+					for (var l = "", t = 0; t < n.length; t++)
+						(l += ("0000" + n.charCodeAt(t).toString(16)).substr(-4)),
+							t != n.length - 1 && (l += "_");
+					return (l = l.toUpperCase()), new r.Md5().appendStr(l).end();
+				};
+			</script>
+		</div>
+	</body>
+</html>
