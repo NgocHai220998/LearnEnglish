@@ -31,8 +31,10 @@
 			crossorigin="anonymous"
 		></script>
 		<script src="./DAY1.js"></script>
+		<script src="./DAY2.js"></script>
 	</head>
 	<body>
+		<div id="mean" style="float: right;">Hainn</div>
 		<div style="padding: 20px">
 			<div class="left">
 				<label for="days">Choose a DAY:</label>
@@ -42,6 +44,7 @@
 					<option value="day3">Ngày thứ 3</option>
 					<option value="day4 selected">Ngày thứ 4</option>
 				</select>
+				<strong></strong>
 			</div>
 			<div class="right">
 				<h3 id="word" class="title"></h3>
@@ -54,10 +57,10 @@
 				$("#days").change(function (event) {
 					switch (event.target.value) {
 						case "day1":
-							data = day1;
+							data = [...day1];
 							break;
 						case "day2":
-							data = day1;
+							data = [...day2];
 							break;
 						case "day3":
 							data = day1;
@@ -136,6 +139,8 @@
 						data.splice(index, 1)
 					} while (currentWord.word == "");
 					$("#word").html(currentWord.mean);
+					$("strong").html(data.length)
+					$("#mean").html(currentWord.word)
 				}
 
 				convertJptoHex = function (n) {
