@@ -139,46 +139,4 @@ const day2 = [{
 }, {
   word: "take off",
   mean: "Cởi ra, cất cánh (v)"
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
 }]

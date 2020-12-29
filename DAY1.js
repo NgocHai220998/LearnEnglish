@@ -136,19 +136,4 @@ const day1 = [{
 }, {
   word: "fresh",
   mean: "Tươi mới (adj)"
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
 }]
