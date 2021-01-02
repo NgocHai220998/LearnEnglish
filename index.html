@@ -163,7 +163,7 @@
 				$("#playSound").click(function () {
 					let tempdata = [...day1, ...day2, ...day3, ...day4]
 					setInterval(() => {
-						playSound(tempdata[Math.floor(Math.random() * data.length)].word)
+						playSound(tempdata[Math.floor(Math.random() * tempdata.length)].word)
 					}, 3000);
 				})
 			</script>

@@ -39,7 +39,7 @@ const day4 = [{
   mean: "Đề xuất"
 }, {
   word: "reserve",
-  mean: "Đặt chỗ"
+  mean: "Đặt chỗ, để giữ một cái gì đó cho thời gian cụ thể hoặc mục đích cụ thể"
 }, {
   word: "process",
   mean: "Xử lý"
@@ -51,7 +51,7 @@ const day4 = [{
   mean: "Loại, kiểu"
 }, {
   word: "manufacture",
-  mean: "Sản xuất"
+  mean: "Sản xuất, Chế tạo (v)"
 }, {
   word: "survey",
   mean: "Khảo sát"
@@ -171,7 +171,7 @@ const day4 = [{
   mean: "Hội thảo"
 }, {
   word: "conduct",
-  mean: "Tiến hành"
+  mean: "Tiến hành, vận hành, hạnh kiểm (v, n)"
 }, {
   word: "category",
   mean: "Thể loại"
@@ -195,16 +195,13 @@ const day4 = [{
   mean: "Sự lo lắng"
 }, {
   word: "perform",
-  mean: "Biểu diễn"
+  mean: "Biểu diễn, Trình bày (v)"
 }, {
   word: "in addition to",
   mean: "Ngoài ra"
 }, {
   word: "invest",
   mean: "Đầu tư"
-}, {
-  word: "previous",
-  mean: "Trước đó "
 }, {
   word: "variety",
   mean: "Sự đa dạng"
@@ -249,7 +246,7 @@ const day4 = [{
   mean: "Gia hạn"
 }, {
   word: "agency",
-  mean: "Công ty "
+  mean: "Công ty, Đại lý"
 }, {
   word: "candidate",
   mean: "Ứng cử viên, người tham gia phỏng vấn "
@@ -264,13 +261,13 @@ const day4 = [{
   mean: "Xuyên suốt "
 }, {
   word: "lecture",
-  mean: "diễn thuyết "
+  mean: "diễn thuyết, bài diễn thuyết"
 }, {
   word: "region",
   mean: "vùng, khu vực"
 }, {
   word: "inquire",
-  mean: "Hỏi"
+  mean: "Hỏi, hỏi thăm, điều tra, dò sét"
 }, {
   word: "analyze",
   mean: "Phân tích"
@@ -279,7 +276,7 @@ const day4 = [{
   mean: "Sự cho phép "
 }, {
   word: "further",
-  mean: "Thêm"
+  mean: "Thêm, hơn nữa, xa hơn nữa (Adv)"
 }, {
   word: "field",
   mean: "Lĩnh vực"
@@ -303,7 +300,7 @@ const day4 = [{
   mean: "Tung ra "
 }, {
   word: "feature",
-  mean: "Bao gồm "
+  mean: "Bao gồm, Tính năng" 
 }, {
   word: "delay",
   mean: "Hoãn, trì hoãn "
@@ -323,7 +320,7 @@ const day4 = [{
   word: "supervise",
   mean: "Giám sát"
 }, {
-  word: "advance",
+  word: "previous",
   mean: "Trước"
 }, {
   word: "solution",
@@ -358,4 +355,13 @@ const day4 = [{
 }, {
   word: "reach for",
   mean: "Với, với lấy"
+}, {
+  word: "provide",
+  mean: "Cung cấp (v)"
+}, {
+  word: "cooperation",
+  mean: "Hợp tác, kết hợp"
+}, {
+  word: "manufactory",
+  mean: "Xưởng sản xuất, xưởng chế tạo"
 }]
