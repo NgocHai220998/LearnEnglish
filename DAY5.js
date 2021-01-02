@@ -299,225 +299,150 @@ const day5 = [{
   word: "subscription",
   mean: "Sự đăng ký (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "organize",
+  mean: "Tổ chức (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "process",
+  mean: "Quá trình, xử lý (n, v)"
 }, {
-  word: "",
-  mean: ""
+  word: "reception",
+  mean: "Lễ tân, sự tiếp đón"
 }, {
-  word: "",
-  mean: ""
+  word: "consult",
+  mean: "Hỏi ý kiến, tham khảo"
 }, {
-  word: "",
-  mean: ""
+  word: "challenging",
+  mean: "Thử thách"
 }, {
-  word: "",
-  mean: ""
+  word: "run out of",
+  mean: "Hết, cạn kiệt"
 }, {
-  word: "",
-  mean: ""
+  word: "transfer",
+  mean: "Chuyển, thuyên chuyển"
 }, {
-  word: "",
-  mean: ""
+  word: "invoice",
+  mean: "Hóa đơn (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "celebrate",
+  mean: "Lễ kỷ niệm, làm lễ kỷ niệm (n, v)"
 }, {
-  word: "",
-  mean: ""
+  word: "ride",
+  mean: "Cưỡi, lái, chuyến đi"
 }, {
-  word: "",
-  mean: ""
+  word: "manual",
+  mean: "Sách hướng dẫn,"
 }, {
-  word: "",
-  mean: ""
+  word: "lead",
+  mean: "Dẫn dắt (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "monitor",
+  mean: "Giám sát, lớp trưởng (v, n)"
 }, {
-  word: "",
-  mean: ""
+  word: "proofread",
+  mean: "Đọc và sử bản in"
 }, {
-  word: "",
-  mean: ""
+  word: "indentification",
+  mean: "Chứng minh thư"
 }, {
-  word: "",
-  mean: ""
+  word: "survey",
+  mean: "Khảo sát, cuộc khảo sát (v, n)"
 }, {
-  word: "",
-  mean: ""
+  word: "suggest",
+  mean: "Đề nghị, gợi ý"
 }, {
-  word: "",
-  mean: ""
+  word: "go ahead",
+  mean: "Tiếp tục làm, cho phép làm (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "belong to",
+  mean: "Thuộc về"
 }, {
-  word: "",
-  mean: ""
+  word: "lower",
+  mean: "Hạ thấp"
 }, {
-  word: "",
-  mean: ""
+  word: "donate",
+  mean: "Quyên góp"
 }, {
-  word: "",
-  mean: ""
+  word: "make sure",
+  mean: "Đảm bảo (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "branch",
+  mean: "Chi nhánh"
 }, {
-  word: "",
-  mean: ""
+  word: "flyer",
+  mean: "Tờ rơi"
 }, {
-  word: "",
-  mean: ""
+  word: "aks for",
+  mean: "Yêu cầu, hỏi về (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "deliver",
+  mean: "Giao hàng (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "recommend",
+  mean: "Giới tiệu, tến cử, khuyên dùng (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "negotiation",
+  mean: "Sự đàm phán"
 }, {
-  word: "",
-  mean: ""
+  word: "purchase",
+  mean: "Mua, sự mua (v, n)"
 }, {
-  word: "",
-  mean: ""
+  word: "let me know if",
+  mean: "Cho tôi biết nếu"
 }, {
-  word: "",
-  mean: ""
+  word: "lend",
+  mean: "Cho mượn, cho vay (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "weigh",
+  mean: "Cân (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "accept",
+  mean: "Chấp nhận (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "improve",
+  mean: "Cải thiện (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "downtown",
+  mean: "Trung tâm thành phố (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "banquet",
+  mean: "Bữa tiệc lớn (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "renew",
+  mean: "Gia hạn (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "aisle",
+  mean: "Lối đi giữa các dãy ghế (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "holiday",
+  mean: "Kỳ nghỉ (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "bottom",
+  mean: "Đáy (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "deserve",
+  mean: "Xứng đáng "
 }, {
-  word: "",
-  mean: ""
+  word: "upstairs",
+  mean: "Tầng trên (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "wonder",
+  mean: "Tự hỏi (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "mail",
+  mean: "Thư (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "reimburse",
+  mean: "Hoàn lại, trả lại ... (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "label",
+  mean: "nhãn, mác, nhãn dán, ghi mác (n, v)"
 }, {
-  word: "",
-  mean: ""
+  word: "supervisor",
+  mean: "Người giám sát (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "document",
+  mean: "Tài liệu (n)"
 }, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
-}, {
-  word: "",
-  mean: ""
+  word: "no later than",
+  mean: "Không trễ hơn!"
 }]
