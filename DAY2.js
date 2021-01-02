@@ -36,7 +36,7 @@ const day2 = [{
   mean: "Nhấm nháp, chép chép miệng (v)"
 }, {
   word: "wind",
-  mean: "Gió, Uốn cong (n, v)"
+  mean: "Gió (n)"
 }, {
   word: "browse",
   mean: "Xem qua, xem qua một chút (v)"

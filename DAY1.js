@@ -93,7 +93,7 @@ const day1 = [{
   mean: "Ngược lại, trái ngược (adj)"
 }, {
   word: "formal",
-  mean: "Chính thức (adj)"
+  mean: "Chính thức, trang trọng (adj)"
 }, {
   word: "fine",
   mean: "Tốt, ổn (adj)"
