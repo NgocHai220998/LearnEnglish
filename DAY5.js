@@ -341,7 +341,7 @@ const day5 = [{
   word: "proofread",
   mean: "Đọc và sử bản in"
 }, {
-  word: "indentification",
+  word: "identification",
   mean: "Chứng minh thư"
 }, {
   word: "survey",

@@ -1,0 +1,102 @@
+interested: Quan tâm (adj)
+attend: Tham gia, tham dự (v)
+estimate: Ước tính (v)
+fee: Lệ phí (n)
+sold out: Bán hết (vé, hàng) (v)
+refundable: Có thể được hoàn lại tiền
+hire: Thuê (v)
+electronically: Trực tuyến
+payment: Sự trả tiền, số tiền trả (n)
+influence: Ảnh hưởng
+charity: Từ thiện
+a couple of: Một vài
+property: tài sản, bất động sản (n)
+leak: Rò rỉ, chảy ra (v, n)
+management: Ban quản lý, sự quản lý
+apply: Ứng tuyển, nộp đơn (v)
+last minute: Phút chót
+collection: Bộ sưu tập (n)
+flexible: Linh hoạt, mềm dẻo (adj)
+maintenance: Duy trì, sự bảo trì (n)
+originally: Ban đầu (adv)
+progress: Tiến độ, tiến trình, sự tiến bộ, sự tiến triển (n)
+fascinating: Hấp dẫn (adj)
+cancel: Hủy bỏ (v)
+lack: Sự thiếu, thiếu
+luncheon: Bữa tiệc trưa (n)
+detail: Chi tiết
+edition: Phiên bản (n)
+missing: Vắng, thiếu, thất lạc
+select: lựa chọn, chọn (v)
+deposit: Tiền đặt cọc, tiền gửi đặt cọc
+layout: Bố cục
+terrific: Tuyệt vời, rất tốt (adj)
+lay off: Xa thải (v)
+later: Một lát sau
+calculate: Tính toán, máy tính (v, n)
+mix up: Tình trạng lộn xộn, xáo trộn (n)
+organization: Tổ chức (n)
+congratulate: Chúc mừng (v)
+error: Lỗi (n)
+overcharge: Tính quá số tiền
+routine: Thói quen, đều đặn thường lệ
+develop: Phát triển
+register: Đăng ký
+look forward to: Háo hức, chờ đợi, mong ngóng (v)
+out of town: Đi vắng, đi khỏi thành phố
+rush: Vội vàng, vội vã, vội, (làm điều gì đó một cách nhanh chóng) (v)
+manufacturer: Nhà sản suất (n)
+negotiate: Đàm phán (v)
+tenant: Người thuê nhà (n)
+award: Giải thưởng (n)
+feature: Tính năng, nét đặc biệt, điểm đặc trưng (n)
+broadcast: Phát sóng (v)
+representative: Người đại diện (n)
+demonstration: Sự giới thiệu, minh chứng, chỉ cho ai đó về cách làm hoặc hiểu về một thứ gì đó
+culinary: Thuộc về ẩm thực (nấu ăn, món ăn ...)
+hesitate: Do dự, ngập ngừng (v)
+proceed to: Tiến hành, đi đến một giai đoạn tiếp theo (v)
+alternative: Thay thế (v)
+attendee: Người tham gia, người tham dự
+reward: Thưởng, đền đáp, phần thưởng (v, n)
+deserve: Xứng đáng
+patron: Khách quen (n)
+report: Báo cáo (v)
+reputation: Danh dự, danh tiếng (n)
+outgoing: Cởi mở
+comprehensive: Toàn diện, bao quát, hiểu biết rộng (adj)
+direct: Trực tiếp (adj)
+host: Chủ nhà, nhà tổ chức (n)
+talented: có tài, tài năng (adj)
+remarkable: Đáng chú ý, đáng nể (adj)
+anniversary: Ngày lễ kỷ niệm (n)
+souvenir: Lưu niệm, quà lưu niệm (n)
+loyal: Trung thành (adj)
+applause: Vỗ tay (v)
+contain: Chứa đựng (v)
+permit: Giấy phép, cho phép (n, v)
+tune: Giai điệu (n)
+retail: Bán lẻ, cửa hàng bán lẻ (n)
+wholesale: Bán buôn
+volunteer: Tình nguyện viên (n)
+accurate: Chính xác, đúng (adj)
+last: Cuối cùng (adj)
+note: Ghi chú lại (v)
+refreshment: Món ăn nhẹ, đồ uống nhẹ, một lượng nhỏ thức ăn và đồ uống
+remind: Nhắc nhở (v)
+construction: Sự xây dựng (n)
+share: Chia sẻ, cổ phiếu (v, n)
+outdated: Lỗi thời (adj)
+hightlight: Nổi bật, làm nổi bật (n, v)
+prestigious: Danh tiếng, danh giá, có uy tín (adj)
+mark: Dấu, đánh dấu (n, v)
+remark: Nhận xét, lời nhận xét (v, n)
+enthusiastic: Nhiệt tình, hăng hái, hào hứng (adj)
+enthusiasm: Sự nhiệt tình, sự hăng hái, sự hào hứng (n)
+recognize: Nhận ra (v)
+realize: Nhận ra, chợt nhận ra (v)
+task: Nhiệm vụ, công việc
+attention: Chuyên tâm, sự chú ý (n)
+practical: Thực tế (adj)
+smoothly: Một cách êm ả, trôi chảy (adv_)
+get back to: Quay lại, gọi điện lại (v)

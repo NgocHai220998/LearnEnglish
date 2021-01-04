@@ -36,6 +36,7 @@
 		<script src="./DAY4.js"></script>
 		<script src="./DAY5.js"></script>
 		<script src="./DAY6.js"></script>
+		<script src="./DAY7.js"></script>
 	</head>
 	<body>
 		<div style="float: right; text-align: center;">
@@ -68,7 +69,7 @@
 			
 			<script>
 				let data = [...day1];
-				let dataOption = [...day1, ...day2, ...day3, ...day4, ...day5, ...day6]
+				let dataOption = [...day1, ...day2, ...day3, ...day4, ...day5, ...day6, ...day7]
 				let currentWord = {};
 				setWord();
 				$("#days").change(function (event) {
@@ -90,6 +91,9 @@
 							break;
 						case "day6":
 							data = [...day6];
+							break
+						case "day7":
+							data = [...day7];
 							break;
 						default:
 							break;
@@ -185,7 +189,7 @@
 				};
 			
 				$("#playSound").click(function () {
-					let tempdata = [...day1, ...day2, ...day3, ...day4, ...day5, ...day6]
+					let tempdata = [...day1, ...day2, ...day3, ...day4, ...day5, ...day6, ...day7]
 					setInterval(() => {
 						playSound(tempdata[Math.floor(Math.random() * tempdata.length)].word)
 					}, 3000);
