@@ -1,11 +1,5 @@
-{}
 {
-  "hosting": {
-    "public": "build",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
+  "projects": {
+    "default": "l-english"
   }
 }
