@@ -146,10 +146,7 @@
 							break;
 					}
 
-					var a = new Audio(
-						`https://dictionary.cambridge.org/vi/media/english/us_pron/${path_1}/${path_2}/${path_3}/${word}.mp3`
-					);
-					a.play();
+					return `https://dictionary.cambridge.org/vi/media/english/us_pron/${path_1}/${path_2}/${path_3}/${word}.mp3`
 				}
 				function setWord() {
 					if (data.length == 1) {
