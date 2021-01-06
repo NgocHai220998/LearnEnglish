@@ -12,6 +12,10 @@
 				white-space: normal !important;
 				word-wrap: break-word !important;
 			}
+			.disable {
+				display: none!important;
+				transition: 1s;
+			}
 		</style>
 		<link
 			rel="stylesheet"
@@ -43,7 +47,7 @@
 		<script src="./DAY7.js"></script>
 	</head>
 	<body>
-		<div style="width: 400px; margin: 0 0 0 auto; text-align: center;">
+		<div class="mb-5" style="width: 400px; margin: 0 0 0 auto; text-align: center;">
 			<h4 id="mean">Hainn</h4>
 			<div style="width: auto; margin: 0 0 0 auto; margin-top: 20px;" class="row">
 				<div class="A col-6 btn btn-success m-1 btn-wrap-text">sd</div>
@@ -52,6 +56,7 @@
 				<div class="D col-5 btn btn-success m-1 btn-wrap-text">sad</div>
 			</div>
 		</div>
+		<button id="btn-sound-all" class="btn btn-info">Play sound all vocabulary</button>
 		<div style="padding: 20px">
 			<div class="left">
 				<label for="days">Choose a DAY:</label>
@@ -62,9 +67,10 @@
 					<option value="day4">Ngày thứ 4</option>
 					<option value="day5">Ngày thứ 5</option>
 					<option value="day6">Ngày thứ 6</option>
+					<option value="day7">Ngày thứ 7</option>
 				</select>
 				<strong></strong>
-				<button class="btn btn-success" id="playSound">play sound</button>
+				<button id="btn-sound-current" class="btn btn-success">Play sound current day</button>
 			</div>
 			<div class="right">
 				<h3 id="word" class="title"></h3>
@@ -192,11 +198,12 @@
 					return (l = l.toUpperCase()), new r.Md5().appendStr(l).end();
 				};
 			
-				$("#playSound").click(function () {
+				$("#btn-sound-all").click(function () {
 					let tempdata = [...day1, ...day2, ...day3, ...day4, ...day5, ...day6, ...day7]
 					setInterval(() => {
 						playSound(tempdata[Math.floor(Math.random() * tempdata.length)].word)
 					}, 3000);
+					$("#btn-sound-all").addClass("disable")
 				})
 
 				$(".btn-wrap-text").click(function() {
@@ -205,8 +212,16 @@
 					}
 					playSound(currentWord.word)
 				})
+
+				$("#btn-sound-current").click(function () {
+					let tempdata = [...data]
+					setInterval(() => {
+						playSound(tempdata[Math.floor(Math.random() * tempdata.length)].word)
+					}, 3000);
+
+					$("#btn-sound-current").addClass("disable")
+				})
 			</script>
 		</div>
-
 	</body>
 </html>
