@@ -172,4 +172,154 @@ const day9 = [{
 }, {
   word: "expect",
   mean: "Mong muốn, mong đợi, kỳ vọng (v)"
+}, {
+  word: "agreement",
+  mean: "Sự đồng ý, sự tán thành, hợp đồng (n)"
+}, {
+  word: "statement",
+  mean: "Bản tuyên bố, bản báo cáo tài chính (n)"
+}, {
+  word: "opinion",
+  mean: "Ý kiến (n)"
+}, {
+  word: "officially",
+  mean: "Chính chức (adv)"
+}, {
+  word: "official",
+  mean: "Chính thức (adj)"
+}, {
+  word: "express",
+  mean: "Bày tỏ, thể hiện (v)"
+}, {
+  word: "express",
+  mean: "Nhanh, tốc hành (adj)"
+}, {
+  word: "achievement",
+  mean: "Thành tích, thành tựu (n)"
+}, {
+  word: "succeed",
+  mean: "Thành công (v)"
+}, {
+  word: "aim",
+  mean: "Mục tiêu, mục đích (n)"
+}, {
+  word: "aim",
+  mean: "Hướng tới, hướng đến, đặt mục tiêu (v)"
+}, {
+  word: "intend",
+  mean: "Dự định, có ý muốn (v)"
+}, {
+  word: "dedication",
+  mean: "Sự cống hiến, sự nhiệt tình (n)"
+}, {
+  word: "dedicate",
+  mean: "Cống hiến, dâng hiến (v)"
+}, {
+  word: "disease",
+  mean: "Bệnh, căn bệnh (n)"
+}, {
+  word: "extraordinary",
+  mean: "Đặc biệt, bất thường, khác thường (adj)"
+}, {
+  word: "unexpected",
+  mean: "Bất ngờ, ngạc nhiên, không chờ mà tới (adj)"
+}, {
+  word: "expected",
+  mean: "Mong chờ, chờ đợi, kỳ vọng (adj)"
+}, {
+  word: "unusual",
+  mean: "Khác thường, bất bình thường (adj)"
+}, {
+  word: "usual",
+  mean: "Bình thường, thường lệ (adj)"
+}, {
+  word: "surprising",
+  mean: "Bất ngờ, ngạc nhiên (adj)"
+}, {
+  word: "look to",
+  mean: "Mong đợi, hy vọng, trông đợi (v)"
+}, {
+  word: "loyal",
+  mean: "Trung thành (adj)"
+}, {
+  word: "organization",
+  mean: "Tổ chức (n)"
+}, {
+  word: "firm",
+  mean: "Kiến cố, cứng, chắc (adj)"
+}, {
+  word: "international",
+  mean: "Quốc tế (adj)"
+}, {
+  word: "friendship",
+  mean: "Tình bạn, tình hữu nghị (n)"
+}, {
+  word: "belief",
+  mean: "Niềm tin (n)"
+}, {
+  word: "believe",
+  mean: "Tin tưởng, tin vào (v)"
+}, {
+  word: "merit",
+  mean: "Có giá trị, đáng khen ngợi, sự khen ngợi (n)"
+}, {
+  word: "praise",
+  mean: "Khen ngợi, đánh giá cao (v)"
+}, {
+  word: "being",
+  mean: "Một người hoặc một sự vật tồn tại"
+}, {
+  word: "obviously",
+  mean: "Rõ ràng, chắc chắn (adv)"
+}, {
+  word: "obvious",
+  mean: "Rõ ràng (adj)"
+}, {
+  word: "tears",
+  mean: "Nước mắt (n)"
+}, {
+  word: "look forward to",
+  mean: "Mong chờ, mong đợi (v)"
+}, {
+  word: "contribute",
+  mean: "Đóng góp (v)"
+}, {
+  word: "towards",
+  mean: "Hướng tới, phía (pre)"
+}, {
+  word: "percent",
+  mean: "Phần trăm, %"
+}, {
+  word: "population",
+  mean: "Dân số (n)"
+}, {
+  word: "grow",
+  mean: "Tăng, lớn lên, phát triẻn (v)"
+}, {
+  word: "increase",
+  mean: "Tăng, gia tăng (v)"
+}, {
+  word: "abide by",
+  mean: "Chân hành, tuân theo (v)"
+}, {
+  word: "naturally",
+  mean: "Một cách tự nhiên (adv)"
+}, {
+  word: "assurance",
+  mean: "Sự đảm bảo, sự cam kết, bảo hiểm (n)"
+}, {
+  word: "guarantee",
+  mean: "Sự đảm bảo, bảo hành (n)"
+}, {
+  word: "promise",
+  mean: "Lời hứa, hứa hẹn (n, v)"
+}, {
+  word: "certainly",
+  mean: "Chắc chắn (adv)"
+}, {
+  word: "complete",
+  mean: "Hoàn thành (v)"
+}, {
+  word: "confidence",
+  mean: "Sự tin tưởng, sự tự tin (n)"
 }]

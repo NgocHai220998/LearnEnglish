@@ -86,6 +86,8 @@
 				let dataOption = [...day1, ...day2, ...day3, ...day4,
 													...day5, ...day6, ...day7, ...day8,
 													...day9]
+				let totalData = [day1, day2, day3, day4, day5, day6,
+												day7, day8, day9]
 				let currentWord = {};
 				setWord();
 				$("#days").change(function (event) {
@@ -229,9 +231,14 @@
 
 				$("#btn-sound-current").click(function () {
 					let tempdata = [...data]
+					let count = 1;
 					setInterval(() => {
 						playSound(tempdata[Math.floor(Math.random() * tempdata.length)].word)
-					}, 3000);
+						count++
+						if (count % 200 == 0) {
+							tempdata = totalData[Math.floor(Math.random() * totalData.length)]
+						} 
+					}, 4000);
 
 					$("#btn-sound-current").addClass("disable")
 				})
