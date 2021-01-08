@@ -53,7 +53,7 @@ const day8 = [{
   word: "sales",
   mean: "Doanh số, doanh thu (n)"
 }, {
-  word: "sales leafle",
+  word: "sales leaflet",
   mean: "Tờ rơi quảng cáo, bán hàng"
 }, {
   word: "marketing",

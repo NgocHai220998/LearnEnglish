@@ -57,6 +57,10 @@
 				<div class="C col-6 btn btn-success m-1 btn-wrap-text">asd</div>
 				<div class="D col-5 btn btn-success m-1 btn-wrap-text">sad</div>
 			</div>
+			<div class="right">
+				<h3 id="word-forget" class="title"></h3>
+				<input type="text" id="input-forget" class="content" />
+			</div>
 		</div>
 		<button id="btn-sound-all" class="btn btn-info">Play sound all vocabulary</button>
 		<div style="padding: 20px">
@@ -83,13 +87,17 @@
 			
 			<script>
 				let data = [...day1];
+				let dataForget = JSON.parse(localStorage.getItem("dataForget")) || []
+				console.log(dataForget)
 				let dataOption = [...day1, ...day2, ...day3, ...day4,
 													...day5, ...day6, ...day7, ...day8,
 													...day9]
 				let totalData = [day1, day2, day3, day4, day5, day6,
 												day7, day8, day9]
 				let currentWord = {};
+				let currentWordForget = {...day1[0]};
 				setWord();
+				setWordForget();
 				$("#days").change(function (event) {
 					switch (event.target.value) {
 						case "day1":
@@ -126,12 +134,22 @@
 				});
 				$("#input").keypress(function (event) {
 					var keycode = event.keyCode ? event.keyCode : event.which;
-					if (keycode == "13") {
-						if (event.target.value == currentWord.word) {
-							playSound(currentWord.word);
-							setWord();
-						}
+					if (event.target.value[event.target.value.length - 1] == "!") {
+						let tempdata = JSON.parse(window.localStorage.getItem("dataForget")) || []
+						tempdata.push(currentWord)
+
+						window.localStorage.setItem("dataForget", JSON.stringify(tempdata))
+						dataForget = JSON.parse(window.localStorage.getItem("dataForget"))
+						setWord();
 						this.value = "";
+					} else {
+						if (keycode == "13") {
+							if (event.target.value == currentWord.word) {
+								playSound(currentWord.word);
+								setWord();
+							}
+							this.value = "";
+						}
 					}
 				});
 				function playSound(word) {
@@ -196,6 +214,43 @@
 					$(".D").html(dataOption[Math.floor(Math.random() * dataOption.length)].mean)
 
 					$(`.${["A", "B", "C", "D"][Math.floor(Math.random() * 4)]}`).html(currentWord.mean)
+				}
+
+				$("#input-forget").keypress(function (event) {
+					var keycode = event.keyCode ? event.keyCode : event.which;
+					if (keycode == "13") {
+						if (event.target.value.includes("!")) {
+							let tempdata = JSON.parse(window.localStorage.getItem("dataForget"))
+							for (let i = 0; i < tempdata.length; ++i) {
+								if ((tempdata[i].word + "!") == event.target.value) {
+									tempdata.splice(i, 1)
+									window.localStorage.setItem("dataForget", JSON.stringify(tempdata))
+									dataForget = tempdata
+									setWordForget()
+									this.value = "";
+									break
+								}
+							}
+						} else {
+							if (event.target.value == currentWordForget.word) {
+								playSound(currentWordForget.word);
+								setWordForget();
+							}
+							this.value = "";
+						}
+					}
+				});
+				function setWordForget() {
+					if (dataForget.length > 0) {
+						console.log(dataForget)
+						let index = 0
+						do {
+							index = Math.floor(Math.random() * dataForget.length)
+							currentWordForget = dataForget[index];
+							dataForget.splice(index, 1)
+						} while (currentWordForget.word == "");
+						$("#word-forget").html(currentWordForget.mean);
+					}
 				}
 
 				convertJptoHex = function (n) {
