@@ -47,6 +47,7 @@
 		<script src="./DAY7.js"></script>
 		<script src="./DAY8.js"></script>
 		<script src="./DAY9.js"></script>
+		<script src="./DAY10.js"></script>
 	</head>
 	<body>
 		<div class="mb-5" style="width: 400px; margin: 0 0 0 auto; text-align: center;">
@@ -76,6 +77,7 @@
 					<option value="day7">Ngày thứ 7</option>
 					<option value="day8">Ngày thứ 8</option>
 					<option value="day9">Ngày thứ 9</option>
+					<option value="day10">Ngày thứ 10</option>
 				</select>
 				<strong></strong>
 				<button id="btn-sound-current" class="btn btn-success">Play sound current day</button>
@@ -91,9 +93,9 @@
 				console.log(dataForget)
 				let dataOption = [...day1, ...day2, ...day3, ...day4,
 													...day5, ...day6, ...day7, ...day8,
-													...day9]
+													...day9, ...day10]
 				let totalData = [day1, day2, day3, day4, day5, day6,
-												day7, day8, day9]
+												day7, day8, day9, ...day10]
 				let currentWord = {};
 				let currentWordForget = {...day1[0]};
 				setWord();
@@ -126,6 +128,9 @@
 							break;
 						case "day9":
 							data = [...day9];
+							break;
+						case "day10":
+							data = [...day10];
 							break;
 						default:
 							break;
@@ -270,7 +275,7 @@
 				$("#btn-sound-all").click(function () {
 					let tempdata = [...day1, ...day2, ...day3, ...day4,
 													...day5, ...day6, ...day7, ...day8,
-													...day9]
+													...day9, ...day10]
 					setInterval(() => {
 						playSound(tempdata[Math.floor(Math.random() * tempdata.length)].word)
 					}, 3000);
