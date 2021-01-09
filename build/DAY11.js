@@ -185,6 +185,81 @@ const day11 = [{
   word: "experiment",
   mean: "Cuộc thực hiện, cuộc thí nghiệm (n)"
 },{
+  word: "scientist",
+  mean: "Nhà khoa học (n)"
+},{
+  word: "scenery",
+  mean: "Cảnh, phong cảnh (n)"
+},{
+  word: "possible",
+  mean: "Khả thi, có khả năng, có thể (adj)"
+},{
+  word: "impossible",
+  mean: "Không thể nào, không có khả năng (adj)"
+},{
+  word: "plate",
+  mean: "Cái đĩa (n)"
+},{
+  word: "differ",
+  mean: "Khác, khác nhau (v)"
+},{
+  word: "actually",
+  mean: "Thực sự (adv)"
+},{
+  word: "conclusion",
+  mean: "Phần kết luận (n)"
+},{
+  word: "introduce",
+  mean: "Giới thiệu (v) demonstration"
+},{
+  word: "operation",
+  mean: "Hoạt động, sự hoạt động (n)"
+},{
+  word: "product",
+  mean: "Sản phẩm (n)"
+},{
+  word: "obtain",
+  mean: "Có được, thu được (v)"
+},{
+  word: "crushing",
+  mean: "Nghiêm trọng, kết quả tồi, nặng nề (adj)"
+},{
+  word: "unpopular",
+  mean: "Không phổ biến, không rộng rãi"
+},{
+  word: "president",
+  mean: "Tổng thống (n)"
+},{
+  word: "legislation",
+  mean: "Pháp luật, luật pháp (n)"
+},{
+  word: "parliament",
+  mean: "Quốc hội, nghị viện (n)"
+},{
+  word: "emission",
+  mean: "Khí thải (n)"
+},{
+  word: "pollute",
+  mean: "Ô nhiễm, gây ô nhiễm (v)"
+},{
+  word: "substance",
+  mean: "Chất, vật chất (n)"
+},{
+  word: "stretch",
+  mean: "Căng ra, giăng ra, vươn ra (v)"
+},{
+  word: "carry",
+  mean: "Xách, mang, vác, khuân (v)"
+},{
+  word: "tired",
+  mean: "Mệt mỏi (adj)"
+},{
+  word: "unlikely",
+  mean: "Không chắc, không chắc chắn (adj)"
+},{
+  word: "organism",
+  mean: "Sinh vật (n)"
+},{
   word: "",
   mean: ""
 }]
