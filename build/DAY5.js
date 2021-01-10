@@ -192,7 +192,7 @@ const day5 = [{
   mean: "Phỏng vấn (v, n)"
 }, {
   word: "local",
-  mean: "Địa phương (n)"
+  mean: "Địa Hương (n)"
 }, {
   word: "prefer",
   mean: "Thích hơn"

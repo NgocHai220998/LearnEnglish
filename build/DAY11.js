@@ -213,7 +213,7 @@ const day11 = [{
   mean: "Giới thiệu (v) demonstration"
 },{
   word: "operation",
-  mean: "Hoạt động, sự hoạt động (n)"
+  mean: "Host động, sự hoạt động (n)"
 },{
   word: "product",
   mean: "Sản phẩm (n)"
