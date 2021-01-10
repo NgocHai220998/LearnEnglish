@@ -70,7 +70,6 @@
 			<div class="left">
 				<label for="days">Choose a DAY:</label>
 				<select id="days">
-					<option value="forget">Từ đã quên</option>
 					<option value="day1">Ngày thứ nhất</option>
 					<option value="day2">Ngày thứ 2</option>
 					<option value="day3">Ngày thứ 3</option>
@@ -83,6 +82,7 @@
 					<option value="day10">Ngày thứ 10</option>
 					<option value="day11">Ngày thứ 11</option>
 					<option value="day12">Ngày thứ 12</option>
+					<option value="forget">Từ đã quên</option>
 				</select>
 				<strong></strong>
 				<button id="btn-sound-current" class="btn btn-success">Play sound current day</button>
@@ -95,7 +95,6 @@
 			<script>
 				let data = [...day1];
 				let dataForget = JSON.parse(localStorage.getItem("dataForget")) || []
-				console.log(dataForget)
 				let dataOption = [...day1, ...day2, ...day3, ...day4,
 													...day5, ...day6, ...day7, ...day8,
 													...day9, ...day10, ...day11, ...day12]
@@ -109,6 +108,7 @@
 					switch (event.target.value) {
 						case "forget":
 							data = [...dataForget];
+							console.log(data)
 							break;
 						case "day1":
 							data = [...day1];

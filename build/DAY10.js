@@ -60,7 +60,7 @@ const day10 = [{
   mean: "Nhân viên (n)"
 }, {
   word: "engage",
-  mean: "Tuyển, tuyển dụng, thuê (v)"
+  mean: "Tuyển, tuyển dụng, thuê, tham gia (v)"
 }, {
   word: "administration",
   mean: "Quản trị (n)"

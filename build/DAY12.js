@@ -347,12 +347,87 @@ const day12 = [{
   word: "ability",
   mean: "Năng lực, khả năng (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "be ready for",
+  mean: "Sẵn sàng cho, chuẩn bị cho ... (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "preparation",
+  mean: "Sự chuẩn bị (n) prepare (v)"
 }, {
-  word: "",
-  mean: ""
+  word: "call in",
+  mean: "Gọi tới, gọi điện để yêu cầu (v)"
+}, {
+  word: "expert",
+  mean: "Chuyên gia, chuyên viên, lão luyện (n, adj)"
+}, {
+  word: "follow up",
+  mean: "Tiếp bước, tiếp nối (v)"
+}, {
+  word: "weakness",
+  mean: "Sự yếu kém, nhược điểm (n)"
+}, {
+  word: "generate",
+  mean: "Tạo ra, sản xuất ra (v)"
+}, {
+  word: "keep up with",
+  mean: "Bắt kịp, theo kịp (v)"
+}, {
+  word: "look up to",
+  mean: "Ngưỡng mộ (v)"
+}, {
+  word: "on track",
+  mean: "Đúng lịch trình, đúng kế hoạch, đúng đường (adj)"
+}, {
+  word: "basis",
+  mean: "Cơ sở, nền tảng (n)"
+}, {
+  word: "be ware of",
+  mean: "Nhận thức được, ý thức được (v)"
+}, {
+  word: "compensate",
+  mean: "Bồi thường, đền bù (v)"
+}, {
+  word: "delicate",
+  mean: "Tính tế, tế nhị (adj)"
+}, {
+  word: "eligible",
+  mean: "Đủ tiêu chuẩn, đủ tư cách (adj)"
+}, {
+  word: "satisfying",
+  mean: "Hài lòng, thỏa mãn, đáp ứng (adj)"
+}, {
+  word: "vested",
+  mean: "Được trao cho, được cấp, được quyền (adj)"
+}, {
+  word: "productive",
+  mean: "Năng suất, hiệu quả (adj)"
+}, {
+  word: "recognition",
+  mean: "Công nhận, thừa nhận (v)"
+}, {
+  word: "bargain",
+  mean: "Món hời, sự mặc cả, hời (n)"
+}, {
+  word: "bear",
+  mean: "Chịu, chịu đựng (v)"
+}, {
+  word: "comfort",
+  mean: "Sự thoải mái, sự hài lòng, sự tiện nghi (n)"
+}, {
+  word: "explore",
+  mean: "Khám phá, khảo sát (v)"
+}, {
+  word: "exclusive",
+  mean: "Riêng biệt, độc đáo, đọc quyền (adj)"
+}, {
+  word: "mandatory",
+  mean: "Tính bắt buộc (adj)"
+}, {
+  word: "merchandise",
+  mean: "Hàng hóa (n)"
+}, {
+  word: "strict",
+  mean: "Nghiêm ngặt, phải chính xác (adj)"
+}, {
+  word: "diverse",
+  mean: "Đa dạng, phong phú (adj)"
 }]
