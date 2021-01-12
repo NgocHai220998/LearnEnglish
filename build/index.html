@@ -50,6 +50,7 @@
 		<script src="./DAY10.js"></script>
 		<script src="./DAY11.js"></script>
 		<script src="./DAY12.js"></script>
+		<script src="./DAY13.js"></script>
 	</head>
 	<body>
 		<div class="mb-5" style="width: 400px; margin: 0 0 0 auto; text-align: center;">
@@ -82,6 +83,7 @@
 					<option value="day10">Ngày thứ 10</option>
 					<option value="day11">Ngày thứ 11</option>
 					<option value="day12">Ngày thứ 12</option>
+					<option value="day13">Ngày thứ 13</option>
 					<option value="forget">Từ đã quên</option>
 				</select>
 				<strong></strong>
@@ -97,19 +99,17 @@
 				let dataForget = JSON.parse(localStorage.getItem("dataForget")) || []
 				let dataOption = [...day1, ...day2, ...day3, ...day4,
 													...day5, ...day6, ...day7, ...day8,
-													...day9, ...day10, ...day11, ...day12]
+													...day9, ...day10, ...day11, ...day12,
+													...day13]
 				let totalData = [day1, day2, day3, day4, day5, day6,
-												day7, day8, day9, day10, day11, day12]
+												day7, day8, day9, day10, day11, day12,
+												day13]
 				let currentWord = {};
 				let currentWordForget = {...day1[0]};
 				setWord();
 				setWordForget();
 				$("#days").change(function (event) {
 					switch (event.target.value) {
-						case "forget":
-							data = [...dataForget];
-							console.log(data)
-							break;
 						case "day1":
 							data = [...day1];
 							break;
@@ -145,6 +145,12 @@
 							break;
 						case "day12":
 							data = [...day12];
+							break
+						case "day13":
+							data = [...day13];
+							break;
+						case "forget":
+							data = [...dataForget];
 							break;
 						default:
 							break;
@@ -289,7 +295,8 @@
 				$("#btn-sound-all").click(function () {
 					let tempdata = [...day1, ...day2, ...day3, ...day4,
 													...day5, ...day6, ...day7, ...day8,
-													...day9, ...day10, ...day11, ...day12]
+													...day9, ...day10, ...day11, ...day12,
+													...day13]
 					setInterval(() => {
 						playSound(tempdata[Math.floor(Math.random() * tempdata.length)].word)
 					}, 3000);
