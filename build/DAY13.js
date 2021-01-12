@@ -85,4 +85,94 @@ const day13 = [{
 }, {
   word: "rectify",
   mean: "Khắc phục, sửa chữa (v)"
+}, {
+  word: "liability",
+  mean: "Nghĩa vụ, bổn phận, trách nhiệm pháp lý (n)"
+}, {
+  word: "scan",
+  mean: "Nhìn lướt qua, quét (v)"
+}, {
+  word: "subtract",
+  mean: "Trừ đi, lấy đi (v)"
+}, {
+  word: "tedious",
+  mean: "Nhàm chán, tẻ nhạt (adj) = boring"
+}, {
+  word: "balance",
+  mean: "Số dư tài khoản, cân bằng, thăng bằng (n)"
+}, {
+  word: "cautious",
+  mean: "dè dặn, thận trọng (adj) = conservative"
+}, {
+  word: "preservation",
+  mean: "Bảo quản, bảo tồn (v)"
+}, {
+  word: "dividend",
+  mean: "Cổ tức, tiền lãi cổ phần (n)"
+}, {
+  word: "down payment",
+  mean: "Tiền đặt cọc, khoản tiền trả trước (n) = deposit"
+}, {
+  word: "mortgage",
+  mean: "Tài sản thế chấp, tiền thế chấp (n), thế chấp, cắm đồ (v)"
+}, {
+  word: "restriction",
+  mean: "Sự giới hạn, sự hạn chế (n)"
+}, {
+  word: "signature",
+  mean: "Chữ ký (n)"
+}, {
+  word: "transaction",
+  mean: "Giao dịch, công việc kinh doanh (n)"
+}, {
+  word: "accounting",
+  mean: "Kế toán, kế toàn viên  (n) = accountant"
+}, {
+  word: "accumulate",
+  mean: "Tích lũy, tích tụ, cộng dồn lại (v)"
+}, {
+  word: "asset",
+  mean: "Tài nguyên, tài sản (n)"
+}, {
+  word: "valuable",
+  mean: "Có giá trị, quý báu (adj)"
+}, {
+  word: "examination",
+  mean: "Sự tiến hành kiểm tra (n)"
+}, {
+  word: "audit",
+  mean: "Kiểm toán, công việc kiểm toán, kiểm toán sổ sách (n, v)"
+}, {
+  word: "build up",
+  mean: "Làm tăng theo thời gian, tăng dần lên (v)"
+}, {
+  word: "profitable",
+  mean: "Có lợi nhuận, có sinh lời (adj)"
+}, {
+  word: "unprofitable",
+  mean: "Không có lợi nhuận, không sinh lời (adj)"
+}, {
+  word: "attitude",
+  mean: "Thái độ (n)"
+}, {
+  word: "profit",
+  mean: "Lợi nhuận, lời (n)"
+}, {
+  word: "reconcile",
+  mean: "Dung hòa, làm cho phù hợp (v)"
+}, {
+  word: "turnover",
+  mean: "Doanh thu (n)"
+}, {
+  word: "aggressive",
+  mean: "Hung hăng, hung bạo (adj)"
+}, {
+  word: "violent",
+  mean: "Bạo lực, bạo hành (adj)"
+}, {
+  word: "commitment",
+  mean: "Sự cam kết (n)"
+}, {
+  word: "",
+  mean: ""
 }]
