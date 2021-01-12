@@ -173,6 +173,87 @@ const day13 = [{
   word: "commitment",
   mean: "Sự cam kết (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "fund",
+  mean: "Quỹ (n)"
+}, {
+  word: "long-term",
+  mean: "Lâu dài, dài hạn (adj)"
+}, {
+  word: "during",
+  mean: "Trong suốt (adv)"
+}, {
+  word: "portfolio",
+  mean: "Danh mục sản phẩm, danh mục đầu tư (n)"
+}, {
+  word: "pull out",
+  mean: "Rút khỏi, rút ra khỏi, rút lui (v)"
+}, {
+  word: "judgment",
+  mean: "Phán đoán (v)"
+}, {
+  word: "wise",
+  mean: "Sáng suốt, khôn ngoan, thông thái (adj)"
+}, {
+  word: "give up",
+  mean: "Từ bỏ (v)"
+}, {
+  word: "joint",
+  mean: "Chung, được chia sẻ, cùng (adj)"
+}, {
+  word: "owe",
+  mean: "Nợ (n, v)"
+}, {
+  word: "explanation",
+  mean: "Lời giải thích, sự giải thích (n)"
+}, {
+  word: "penalty",
+  mean: "Hình phạt, tiền phạt (n)"
+}, {
+  word: "spouse",
+  mean: "Vợ / chồng (n)"
+}, {
+  word: "withhold",
+  mean: "Giữ lại, cầm lại, giấu đi (v)"
+}, {
+  word: "desired",
+  mean: "Muốn có (adj)"
+}, {
+  word: "forecast",
+  mean: "Dự báo (v)"
+}, {
+  word: "overall",
+  mean: "Nhìn chung, nói chung (adj, adv)"
+}, {
+  word: "perspective",
+  mean: "Quan điểm, góc nhìn cá nhân (n)"
+}, {
+  word: "realistic",
+  mean: "Thực tế, có óc thực tế (adj)"
+}, {
+  word: "target",
+  mean: "Mục tiêu, đặt mục tiêu (n, v)"
+}, {
+  word: "translation",
+  mean: "Sự dịch, bản dịch, sự chuyển (n)"
+}, {
+  word: "typical",
+  mean: "Điển hình, đặc thù, tiêu biểu (adj)"
+}, {
+  word: "yield",
+  mean: "Lợi nhuận, sản lượng (n) sinh lời (v)"
+}, {
+  word: "positive",
+  mean: "Tích cực (adj)"
+}, {
+  word: "optimistic",
+  mean: "Lạc quan, yêu đời (adj)"
+}, {
+  word: "produce",
+  mean: "Sản xuất (v)"
+}, {
+  word: "near",
+  mean: "Gần (adj)"
+}, {
+  word: "adjacent",
+  mean: "Gần kề, liền kề, ngay sát, sát ngay (adj)"
 }]
