@@ -176,12 +176,90 @@ const day14 = [{
   word: "signature",
   mean: "Chữ ký, đặc chưng, tiêu biểu, duy nhất (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "majority",
+  mean: "Phần lớn, đa số (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "mix",
+  mean: "Trộn lẫn, hòa vào nhau (v)          Hỗ hợp (n)"
 }, {
-  word: "",
-  mean: ""
+  word: "rely",
+  mean: "Dựa vào, tin cậy, phụ thuộc vào (v)"
+}, {
+  word: "trust",
+  mean: "Tin, tin tưởng (v)"
+}, {
+  word: "secure",
+  mean: "An toàn, đảm bảo (adj)"
+}, {
+  word: "subjective",
+  mean: "Chủ quan (adj)"
+}, {
+  word: "basic",
+  mean: "Cơ bản, nền tảng, cơ sở (adj)      basis (n)"
+}, {
+  word: "complete",
+  mean: "Đầy đủ, trọn vẹn, hoàn toàn (adj)    hoàn thành (v)"
+}, {
+  word: "excite",
+  mean: "Kích thích, kích động, đánh thức (v)"
+}, {
+  word: "flavor = flavour",
+  mean: "Mùi vị (n)"
+}, {
+  word: "ingredient",
+  mean: "Thành phần (của một hỗn hợp) (n)"
+}, {
+  word: "ingress",
+  mean: "Sự xâm nhập (n)"
+}, {
+  word: "judge",
+  mean: "Phán đoán, đánh giá (mang tính chủ quan) (v)"
+}, {
+  word: "predict",
+  mean: "Đoán, dự đoán, dự báo (v)"
+}, {
+  word: "remind",
+  mean: "Nhắc nhở, làm nhớ lại (v)"
+}, {
+  word: "burdensome",
+  mean: "Nặng nề, gánh nặng (adj)"
+}, {
+  word: "elegant",
+  mean: "Thanh lịch, tao nhã, thơm ngon (adj)"
+}, {
+  word: "impress",
+  mean: "Gây ấn tượng, làm cảm kích (v)"
+}, {
+  word: "multiple",
+  mean: "Nhiều cái, nhiều loại, phức tạp (adj)"
+}, {
+  word: "handicap",
+  mean: "Khuyết tật (n)"
+}, {
+  word: "narrow",
+  mean: "Thu hẹp (v), hẹp, chật hẹp, eo hẹp (adj)"
+}, {
+  word: "settle",
+  mean: "Quyết định, giải quyết, Xác định (nơi chốn), thanh toán (hóa đơn)"
+}, {
+  word: "accustom to",
+  mean: "Làm quen, làm cho quen (v)"
+}, {
+  word: "apprentice",
+  mean: "Người học việc, nhân viên tập sự (n)"
+}, {
+  word: "apprenticeship",
+  mean: "Sự học nghề, sự học việc (n)"
+}, {
+  word: "demanding",
+  mean: "Khắt khe, khó tính, yêu cầu cao (adj)"
+}, {
+  word: "incorporate",
+  mean: "Sát nhập, kết hợp, tích hợp (v)"
+}, {
+  word: "influx",
+  mean: "Sự nhảy vào, sự tràn vào (n)"
+}, {
+  word: "outlet",
+  mean: "Lối thoát, đầu ra ngoài, đầu thoát ra (n)"
 }]
