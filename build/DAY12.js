@@ -141,7 +141,7 @@ const day12 = [{
   mean: "Thay cho ... (adv)"
 }, {
   word: "association",
-  mean: "Tổ chức, hiệp hội (n)"
+  mean: "Tổ chức, hiệp hội, sự liên kết (n)"
 }, {
   word: "get in touch",
   mean: "Liên lạc, liên hệ (n)"

@@ -159,7 +159,7 @@
 				});
 				$("#input").keypress(function (event) {
 					var keycode = event.keyCode ? event.keyCode : event.which;
-					if (event.target.value[event.target.value.length - 1] == "!") {
+					if (event.target.value[event.target.value.length - 1] == "4") {
 						let tempdata = JSON.parse(window.localStorage.getItem("dataForget")) || []
 						tempdata.push(currentWord)
 
