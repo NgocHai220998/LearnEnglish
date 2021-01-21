@@ -54,6 +54,7 @@
 		<script src="./DAY14.js"></script>
 		<script src="./DAY15.js"></script>
 		<script src="./DAY16.js"></script>
+		<script src="./DAY17.js"></script>
 	</head>
 	<body>
 		<div class="mb-5" style="width: 400px; margin: 0 0 0 auto; text-align: center;">
@@ -90,6 +91,7 @@
 					<option value="day14">Ngày thứ 14</option>
 					<option value="day15">Ngày thứ 15</option>
 					<option value="day16">Ngày thứ 16</option>
+					<option value="day17">Ngày thứ 17</option>
 					<option value="forget">Từ đã quên</option>
 				</select>
 				<strong></strong>
@@ -106,10 +108,11 @@
 				let dataOption = [...day1, ...day2, ...day3, ...day4,
 													...day5, ...day6, ...day7, ...day8,
 													...day9, ...day10, ...day11, ...day12,
-													...day13, ...day14, ...day15, ...day16]
+													...day13, ...day14, ...day15, ...day16,
+													...day17]
 				let totalData = [day1, day2, day3, day4, day5, day6,
 												day7, day8, day9, day10, day11, day12,
-												day13, day14, day15, day16]
+												day13, day14, day15, day16, day17]
 				let currentWord = {};
 				let currentWordForget = {...day1[0]};
 				setWord();
@@ -163,6 +166,9 @@
 							break;
 						case "day16":
 							data = [...day16];
+							break;
+						case "day17":
+							data = [...day17];
 							break;
 						case "forget":
 							data = [...dataForget];
@@ -311,7 +317,8 @@
 					let tempdata = [...day1, ...day2, ...day3, ...day4,
 													...day5, ...day6, ...day7, ...day8,
 													...day9, ...day10, ...day11, ...day12,
-													...day13, ...day14, ...day15, ...day16]
+													...day13, ...day14, ...day15, ...day16,
+													...day17]
 					setInterval(() => {
 						playSound(tempdata[Math.floor(Math.random() * tempdata.length)].word)
 					}, 3000);
