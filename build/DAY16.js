@@ -260,6 +260,93 @@ const day16 = [{
   word: "assignment",
   mean: "Sự phân công, sự giao việc, việc được giao (n) - assign (v) phân công , chỉ định"
 }, {
+  word: "decisive",
+  mean: "Quả quyết, dứt khoát (adj)"
+}, {
+  word: "disseminate",
+  mean: "Tuyên truyền, phổ biến, gieo rắc (v)"
+}, {
+  word: "impact",
+  mean: "Tác động mạnh vào (v) - sự tác động, sự ảnh hưởng (n)"
+}, {
+  word: "in-depth",
+  mean: "Kỹ lưỡng, chu đáo, tỷ mỉ (adj)"
+}, {
+  word: "investigative",
+  mean: "Thuộc về điều tra, mang tính điều tra (adj)"
+}, {
+  word: "link",
+  mean: "Sự liên kết, mối liên hệ (n)"
+}, {
+  word: "thorough",
+  mean: "Kỹ lưỡng, hoàn toàn (adj)"
+}, {
+  word: "appointment",
+  mean: "Cuộc hẹn, chức vụ dc bổ nhiệm (n) - appoint (bổ nhiệm) (v)"
+}, {
+  word: "assess",
+  mean: "Định giá, đánh giá (v)"
+}, {
+  word: "instrument",
+  mean: "Công cụ, phương tiện, thiết bị (n)"
+}, {
+  word: "refer",
+  mean: "Đề cập, ám chỉ (v)"
+}, {
+  word: "serious",
+  mean: "Nghiêm trọng, trầm trọng (adj)"
+}, {
+  word: "aware",
+  mean: "Biết, nhận biết (adj)"
+}, {
+  word: "catch up",
+  mean: "Bắt kịp, đuổi kịp (v)"
+}, {
+  word: "distraction",
+  mean: "Sự xao nhãng, sự lơ đễnh, sự mất tập trung (n)   distract (v)"
+}, {
+  word: "evident",
+  mean: "Rõ ràng, hiển nhiên (adj)"
+}, {
+  word: "habit",
+  mean: "Thói quen (n)"
+}, {
+  word: "majority",
+  mean: "Đa phần, đa số, phần lớn (n)"
+}, {
+  word: "resident",
+  mean: "Công dân, dân chúng, người dân (n)"
+}, {
+  word: "illuminate",
+  mean: "Giải thích, làm sáng tỏ, soi sáng (v)"
+}, {
+  word: "annoy",
+  mean: "Làm phiền (v) disturb"
+}, {
+  word: "irritate",
+  mean: "Chọc tức (v)"
+}, {
+  word: "regularly",
+  mean: "Thường xuyên, đều đặn (adv)"
+}, {
+  word: "restore",
+  mean: "Phục hồi (v)"
+}, {
+  word: "aspect",
+  mean: "Khía cạnh, một mặt, diện mạo (n)"
+}, {
+  word: "concern",
+  mean: "Liên quan, dính líu (v) - sự lo lắng (n)"
+}, {
+  word: "emphasize",
+  mean: "Nhấn mạnh, đề cao (v)"
+}, {
+  word: "incur",
+  mean: "Gánh chịu (v)"
+}, {
+  word: "portion",
+  mean: "Phần, đoạn, khúc (n)"
+}, {
   word: "",
   mean: ""
 }]
