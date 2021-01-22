@@ -44,6 +44,66 @@ const day17 = [{
   word: "voluntary",
   mean: "Tình nguyện (adj) volunteer (n) tình nguyện viên"
 }, {
+  word: "registration",
+  mean: "Sự đăng ký (n)"
+}, {
+  word: "information packet",
+  mean: "Gói thông tin (n)"
+}, {
+  word: "amenity",
+  mean: "Sự tiên nghi, sự tiện ích (n) amenities (adj)"
+}, {
+  word: "Be a way on a trip",
+  mean: "Đi công tác (v)"
+}, {
+  word: "fundraising",
+  mean: "Sự gây quỹ (n)"
+}, {
+  word: "arrange a meeting",
+  mean: "Chuẩn bị một cuộc họp, sắp xếp một cuộc họp (v)"
+}, {
+  word: "access card",
+  mean: "Thẻ ra vào, thẻ truy cập (n)"
+}, {
+  word: "headquarters",
+  mean: "Trụ sở chính (n) - headquarter (n) trụ sở"
+}, {
+  word: "bulletin",
+  mean: "Bản tin (n) - bulletin board (bảng thông báo) (n)"
+}, {
+  word: "catch a plane",
+  mean: "Đáp máy bay, máy bay hạ cánh (v)"
+}, {
+  word: "commute",
+  mean: "Đi lại hàng ngày (v)"
+}, {
+  word: "call in sick",
+  mean: "Gọi điện báo ốm (v)"
+}, {
+  word: "accommodation",
+  mean: "Chỗ ở (n) - accommodate (v) chứa, cung cấp"
+}, {
+  word: "specialty",
+  mean: "Đặc sản, chuyên ngành (n)"
+}, {
+  word: "eye exam",
+  mean: "Khám mắt (v, n)"
+}, {
+  word: "souvenir",
+  mean: "Đồ lưu niệm, quà lưu niệm (n)"
+}, {
+  word: "carry-on baggage",
+  mean: "Hành lý (n)"
+}, {
+  word: "laboratory",
+  mean: "Phòng thí nghiệm (n)"
+}, {
+  word: "alleviate",
+  mean: "Làm giảm đau (v) - alleviation (n)"
+}, {
+  word: "dental",
+  mean: "Thuộc về khám răng, nha khoa (adj) - dental appointment (Buổi hẹn khám răng) (n)"
+}, {
   word: "",
   mean: ""
 }]
